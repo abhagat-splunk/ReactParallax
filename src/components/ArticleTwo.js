@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-class Article extends React.Component {
+class ArticleTwo extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -15,7 +15,7 @@ class Article extends React.Component {
           alt="unsplash"
         /> */}
         <div className="slide-up">
-        <h1 className="headline slide-up">18 BILLION DATA POINTS</h1>
+        <h1 className="headline">1 BILLION SLEEP SESSIONS</h1>
         <h3 className="body">Lorem ipsum dolor sit amet consectetur adipiscing.</h3>
         </div>
         
@@ -24,4 +24,4 @@ class Article extends React.Component {
   }
 }
 
-export default Article;
+export default ArticleTwo;

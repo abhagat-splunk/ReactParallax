@@ -2,19 +2,39 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Article from "./components/Article.js";
+import ArticleTwo from "./components/ArticleTwo.js";
+import ArticleThree from "./components/ArticleThree.js";
 import Testimonial from "./components/Testimonial-Slider.js";
+
+
+/*
+requestAnimationFrame as well as Intersection Observer
+
+
+*/
+
 
 import "./styles.css";
 function App() {
   return (
     <ParallaxProvider>
+
       <div className="App">
-        <h1>Ankit's Parallax</h1>
-        <Article/>
-        <div className="py-40 lg:py-20" />
-        <div className="py-40 lg:py-20" />
-        <Testimonial />
-        <div className="py-40" />
+        <div className="mask">
+          <div className="article">
+            <Article/>
+          </div>
+        </div>
+        <div className="maskTwo">
+          <div className="article">
+            <ArticleTwo/>
+          </div>
+        </div>
+        <div className="mask">
+          <div className="article">
+            <ArticleThree/>
+          </div>
+        </div>
       </div>
     </ParallaxProvider>
   );
