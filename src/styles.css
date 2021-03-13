@@ -654,7 +654,10 @@ Grab all new CSS from here
   font-weight: 900;
   letter-spacing: 0;
   line-height: 60px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  vertical-align: middle;
 }
 
 .mask {
@@ -671,6 +674,8 @@ Grab all new CSS from here
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  top: 40%;
 }
 
 .body {
@@ -682,12 +687,12 @@ Grab all new CSS from here
   font-weight: 300;
   letter-spacing: 0;
   line-height: 28px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 
 div.slide-up {
-  height:200px;
+  height:100px;
   overflow:hidden;
 }
 div.slide-up h1 {

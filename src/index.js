@@ -61,17 +61,17 @@ class App extends React.Component{
       return (<ParallaxProvider>
       <div className="App">
         <div className="mask">
-          <div className="article inline-text-scroll show-on-scroll">
+          <div className="article">
             <Article/>
           </div>
         </div>
         <div className="maskTwo">
-          <div className="article inline-text-scroll show-on-scroll">
+          <div className="article">
             <ArticleTwo/>
           </div>
         </div>
         <div className="mask">
-          <div className="article inline-text-scroll show-on-scroll">
+          <div className="article">
             <ArticleThree/>
           </div>
         </div>
