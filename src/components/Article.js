@@ -7,6 +7,7 @@ class Article extends React.Component {
   }
 
   render() {
+    
     return (
       <div>
         {/* <img
@@ -16,12 +17,14 @@ class Article extends React.Component {
         /> */}
         <div className="slide-up">
         <h1 className="headline slide-up">18 BILLION DATA POINTS</h1>
-        <h3 className="body">Lorem ipsum dolor sit amet consectetur adipiscing.</h3>
+        <h3 className="body slide-up">Lorem ipsum dolor sit amet consectetur adipiscing.</h3>
         </div>
         
       </div>
     );
   }
 }
+
+
 
 export default Article;
