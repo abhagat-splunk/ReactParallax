@@ -5,6 +5,7 @@ import Article from "./components/Article.js";
 import ArticleTwo from "./components/ArticleTwo.js";
 import ArticleThree from "./components/ArticleThree.js";
 import Testimonial from "./components/Testimonial-Slider.js";
+import Arrow from "./components/Arrow.js";
 
 /*
 requestAnimationFrame as well as Intersection Observer
@@ -66,6 +67,8 @@ class App extends React.Component {
           <div className="mask">
             <div className="article">
               <Article />
+            </div>
+            <div className="article">
               <Testimonial />
             </div>
           </div>
@@ -77,6 +80,9 @@ class App extends React.Component {
           <div className="mask">
             <div className="article">
               <ArticleThree />
+            </div>
+            <div className="article">
+              <Arrow />
             </div>
           </div>
         </div>

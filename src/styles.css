@@ -727,3 +727,7 @@ div.slide-up h3 {
 .inline-text-scroll.is-visible {
   opacity: 1;
 }
+
+.arrow-margin {
+  margin-top: 200px;
+}
