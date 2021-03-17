@@ -1,20 +1,17 @@
 import * as React from "react";
-import { number } from "prop-types";
 
-Arrow.propTypes = {
-  margin: number,
-};
+import "../styles.css";
 
-function Arrow({ margin = 200, ...rest }) {
+function Arrow(props) {
   return (
     <svg
       width={50}
       height={50}
-      margin-top={200}
+      className="margin-top arrow-margin"
       viewBox="0 0 50 50"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      {...rest}
+      {...props}
     >
       <title>{"Circle-Load-Button Copy"}</title>
       <defs>

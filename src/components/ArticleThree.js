@@ -10,10 +10,10 @@ class ArticleThree extends React.Component {
   render() {
     return (
       <div className="slide-up">
-        <h1 className="headline inline-text-scroll show-on-scroll">
+        <h1 id="two" className="headline inline-text-scroll show-on-scroll">
           THE SCIENCE OF SLEEP
         </h1>
-        <h3 className="body inline-text-scroll show-on-scroll">
+        <h3 id="two" className="body inline-text-scroll show-on-scroll">
           Lorem ipsum dolor sit amet consectetur adipiscing.
         </h3>
         <Arrow />

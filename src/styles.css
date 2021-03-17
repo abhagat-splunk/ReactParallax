@@ -71,6 +71,7 @@ h3 {
 
 h4 {
   font-size: 34px;
+  line-height: 43px;
 }
 
 h5 {
@@ -192,7 +193,7 @@ START -----------
 }
 
 .testimonial-slider__slides .slick-dots {
-  left: 650px;
+  left: 925px;
   bottom: -10%;
   transform: rotate(90deg);
   top: 500px;
@@ -663,13 +664,13 @@ Grab all new CSS from here
 }
 
 .mask {
-  height: 800px;
-  width: 1440px;
+  height: 1000px;
+  width: 2100px;
   background: linear-gradient(180deg, #000204 0%, #051b40 100%);
 }
 .maskTwo {
-  height: 800px;
-  width: 1440px;
+  height: 1000px;
+  width: 2100px;
   background: linear-gradient(0deg, #000204 0%, #051b40 100%);
 }
 .article {
@@ -702,7 +703,23 @@ div.slide-up h1 {
   margin-top: 0%;
 }
 div.slide-up h3 {
-  animation: 2s slide-up;
+  animation: 3s slide-up;
+  margin-top: 0%;
+}
+div.slide-up h1 two {
+  animation: 6s slide-up;
+  margin-top: 0%;
+}
+div.slide-up h1 one {
+  animation: 5s slide-up;
+  margin-top: 0%;
+}
+div.slide-up h3 one {
+  animation: 5s slide-up;
+  margin-top: 0%;
+}
+div.slide-up h3 two {
+  animation: 5s slide-up;
   margin-top: 0%;
 }
 
