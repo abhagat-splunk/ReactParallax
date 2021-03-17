@@ -192,9 +192,10 @@ START -----------
 }
 
 .testimonial-slider__slides .slick-dots {
-  left: 0;
+  left: 650px;
   bottom: -10%;
-  transform: translateX(11%);
+  transform: rotate(90deg);
+  top: 500px;
 }
 
 .slick-dots li.slick-active {
